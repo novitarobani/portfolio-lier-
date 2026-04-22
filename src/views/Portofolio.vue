@@ -14,6 +14,7 @@
 
     <div class="row">
 
+      <!-- CARD 1 -->
       <div class="col-md-4 mb-4">
         <div class="card h-100">
           <img src="https://i.pinimg.com/736x/83/61/8f/83618f38a393a700278411af297cb243.jpg" class="card-img-top">
@@ -25,9 +26,10 @@
         </div>
       </div>
 
+      <!-- CARD 2 (FIXED) -->
       <div class="col-md-4 mb-4">
         <div class="card h-100">
-          <img src="https://i.pinimg.com/1200x/55/d5/60/55d560dd8cb5895cd363b2c305da8f9a.jpg  " class="card-img-top">
+          <div class="img-placeholder"></div>
           <div class="card-body">
             <h5>NR E-Line</h5>
             <p>Mobil listrik modern yang ramah lingkungan dengan teknologi canggih.</p>
@@ -58,6 +60,7 @@
 .card {
   transition: 0.3s;
   border-radius: 12px;
+  background-color: rgba(255,255,255,0.95);
 }
 
 .card:hover {
@@ -65,13 +68,17 @@
   box-shadow: 0 12px 25px rgba(0,0,0,0.3);
 }
 
-.card {
-  background-color: rgba(255,255,255,0.95);
-}
-
 .card img {
   height: 200px;
   object-fit: cover;
+}
+
+/* placeholder buat ganti gambar */
+.img-placeholder {
+  height: 200px;
+  background: linear-gradient(135deg, #999, #ccc);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 </style>
