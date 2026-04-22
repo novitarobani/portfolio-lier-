@@ -27,7 +27,7 @@
 
       <div class="col-md-4 mb-4">
         <div class="card h-100">
-          <img src="hhttps://i.pinimg.com/1200x/55/d5/60/55d560dd8cb5895cd363b2c305da8f9a.jpg  " class="card-img-top">
+          <img src="https://i.pinimg.com/1200x/55/d5/60/55d560dd8cb5895cd363b2c305da8f9a.jpg  " class="card-img-top">
           <div class="card-body">
             <h5>NR E-Line</h5>
             <p>Mobil listrik modern yang ramah lingkungan dengan teknologi canggih.</p>
